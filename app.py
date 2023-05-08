@@ -16,4 +16,7 @@ async def on_startup(dispatcher):
 
 
 def app():
+    pass
+
+if __name__ == '__main__':
     executor.start_polling(dp, on_startup=on_startup)
